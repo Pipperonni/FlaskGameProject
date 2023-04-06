@@ -1,0 +1,17 @@
+*{
+    box-sizing: border-box;
+}
+
+.content-section1{
+    padding: 10px 20px;
+    border: 1px solid #dddddd;
+    border-radius: 3px;
+    margin-bottom: 20px;
+    margin-top: 4rem;
+    width: 30rem;
+}
+
+.sign-up-btn{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}

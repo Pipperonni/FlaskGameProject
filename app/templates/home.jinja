@@ -1,0 +1,11 @@
+{% extends "base.jinja" %}
+
+{% block content %}
+    <h2>Games</h2>
+    <h2>Card Games</h2>
+    {% for card in games.cards %}
+        <span>{{ card }} <br> </span>
+    {% endfor %}
+    <h2>Dice</h2>
+    <p>{{ games.dice }}</p>
+{% endblock %}
